@@ -8,7 +8,7 @@
         }
     ],
     "autoload": {
-        "classmap": [],
+        "classmap": ["src/app/"],
         "psr-4": {
             "VCComponent\\Laravel\\Sitemap\\": "src/app/"
         }
@@ -19,7 +19,7 @@
         }
     },
     "require": {
-        "webpress/core": "0.0.1",
+        "webpress/core": "^0.0.1",
         "cviebrock/eloquent-sluggable": "7.0.1"
     },
     "require-dev": {
